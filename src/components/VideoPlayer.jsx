@@ -4,7 +4,7 @@ import { Jumbotron } from 'reactstrap';
 const VideoPlayer = ({ video: { items: [currentVideo] } }) => {
     // console.log("video in videoplayer page: ", currentVideo);
 
-    const { likeCount, dislikeCount, viewCount, commentCount } = currentVideo.statistics;
+    const { likeCount, dislikeCount, viewCount } = currentVideo.statistics;
 
     return (
         <>
